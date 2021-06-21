@@ -21,7 +21,6 @@ function App() {
   const { loading, error, data } = useQuery(EXCHANGE_RATES);
 
   if (loading) return <p>Loading apps...</p>;
-  if (error) return <p>Error :(</p>;
 
   return (
     <main className="main">
